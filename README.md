@@ -18,7 +18,7 @@ This project is a web application for managing flights and airports. It allows u
 
 1. Clone the repository from GitHub:
 
-   ````
+   ```
    git clone https://github.com/SalmaAhmedAl/airline.git
    ```
 
