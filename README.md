@@ -14,6 +14,12 @@ This project is a web application for managing flights and airports. It allows u
 
 4. Admin Interface: The project includes an admin interface that provides easy access to create, edit, and delete flights, airports, and passengers. Only authorized users with administrative privileges can access this interface.
 
+#### List of Flights
+![List of Flights](images/flights.jpg)
+
+#### Flight 1
+![Flight 1](images/flight.jpg)
+
 ## Installation
 
 1. Clone the repository from GitHub:
@@ -22,30 +28,27 @@ This project is a web application for managing flights and airports. It allows u
    git clone https://github.com/SalmaAhmedAl/airline.git
    ```
 
-2. Install the required dependencies. It is recommended to use a virtual environment:
+2. Install the required dependencies:
 
-   ````
+   ```
    cd airline
-   python -m venv venv
-   source venv/bin/activate (for Linux/Mac) or venv\Scripts\activate (for Windows)
-   pip install -r requirements.txt
    ```
 
 3. Apply database migrations:
 
-   ````
+   ```
    python manage.py migrate
    ```
 
 4. Create a superuser for accessing the admin interface:
 
-   ````
+   ```
    python manage.py createsuperuser
    ```
 
 5. Start the development server:
 
-   ````
+   ```
    python manage.py runserver
    ```
 
