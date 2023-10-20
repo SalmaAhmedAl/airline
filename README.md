@@ -8,18 +8,25 @@ This project is a web application for managing flights and airports. It allows u
 
 1. Flight Management: Users can view a list of flights, including their origin, destination, and duration. They can click on a flight to get more detailed information.
 
-2. Airport Management: Users can view a list of airports and their corresponding flights. They can add, edit, and delete airports.
+2. Airport Management: Users can view a list of airports and their corresponding flights. They can add, edit, and delete airports in the Database.
 
 3. Passenger Management: Users can register as passengers and associate themselves with flights. Passengers have a Many-to-Many relationship with flights, allowing them to be booked on multiple flights.
 
 4. Admin Interface: The project includes an admin interface that provides easy access to create, edit, and delete flights, airports, and passengers. Only authorized users with administrative privileges can access this interface.
 
-#### List of Flights
+
+### List of Flights
 ![List of Flights](images/flights.jpg)
 
-#### Flight 1
+### Flight 1 and book a Flight
 ![Flight 1](images/flight.jpg)
 
+![Passenger Admin](images/PassengerAdmin.jpg)
+![Flight Admin](images/FlightAdmin.jpg)
+
+#
+![Login](images/login.jpg)
+![Logout](images/Logout.jpg)
 ## Installation
 
 1. Clone the repository from GitHub:
